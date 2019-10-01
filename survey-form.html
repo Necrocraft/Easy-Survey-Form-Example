@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Biography</title>
+  <link rel="stylesheet" type="text/css" href="survey-form.css" />
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+<main>
+  <h1 id="title">Survey Form</h1>
+  <div id="form-area">
+    <p id="description">Let us know how we can improve Hybrid Aesthetic</p>
+    <hr>
+    <form id="survey-form">
+      <div>
+        <div class="labels">
+          <label id="name-label" for="name">*Name: </label></div>
+        <div class="empty-field">
+          <input type="text" id="name" class="input-field" required placeholder="    Enter your name">
+        </div>
+      </div>
+      <div>
+        <div class="labels">
+
+          <label id="email-label" for="email">*Email:
+          </label>
+        </div>
+
+        <div class="empty-field">
+
+          <input type="email" id="email" class="input-field" name="email" required placeholder="   Enter your email">
+        </div>
+      </div>
+      <div>
+        <div class="labels">
+
+          <label id="number-label" for="number"> *Age: </label>
+        </div>
+        <div class="empty-field">
+          <input type="number" id="number" class="input-field" min="1" max="125" name="age" required
+            placeholder="    Enter your age">
+        </div>
+      </div><br>
+      <div>
+        <label for="dropdown">Which option best describes your last shopping experience: </label>
+        <select id="dropdown" name="dropdown-menu" class="dropdown">
+          <option disabled value>Select an option</option>
+          <option value="Excellent">Excellent</option>
+          <option value="Good">Good</option>
+          <option value="Average">Average</option>
+          <option value="Bad">Bad</option>
+        </select>
+      </div>
+      <div class="radio-form">
+        <label for="radio">How likely are you to refer Hybrid Aesthetic to your friends and family? </label>
+
+        <label><input type="radio" name="radio-buttons" value="1">Definitely</label></li>
+        <label><input type="radio" name="radio-buttons" value="2">Maybe</label></li>
+        <label> <input type="radio" name="radio-buttons" value="3">Not Sure</label></li>
+      </div>
+      <div>
+        <label for="dropdown">What do you like most in HA? </label>
+        <select id="dropdown" name="dropdown-menu" class="dropdown">
+          <option disabled value>Select an option</option>
+          <option value="T-Shirts">T-Shirt</option>
+          <option value="Sweater">Sweater</option>
+          <option value="Cap">Cap</option>
+          <option value="Jeans">Jeans</option>
+        </select>
+      </div>
+      <div class="checkbox-form">
+        <label for="checkbox">What should be improved in the future? (You can select more than one) </label> <br><br>
+        <label><input type="checkbox" name="checkbox-buttons" value="1">Product Quality</label></li><br>
+        <label><input type="checkbox" name="checkbox-button" value="2">Time of Delivery</label></li><br>
+        <label><input type="checkbox" name="checkbox-button" value="3">Price</label></li><br>
+        <label><input type="checkbox" name="checkbox-button" value="4">Discounts</label></li><br>
+        <label><input type="checkbox" name="checkbox-button" value="5">More Products</label></li><br>
+        <label><input type="checkbox" name="checkbox-button" value="6">Return Policy</label></li>
+      </div> <br><br>
+      <div>
+        <label for="comments">Any comments or suggestions?</label><br>
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment"
+          placeholder="Enter your comment here..."></textarea>
+      </div>
+      <button id="submit" type="submit">Submit</button>
+      <hr>
+    </form>
+  </div>
+</main>
+<footer>Necrocraft</footer>

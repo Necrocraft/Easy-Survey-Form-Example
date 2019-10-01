@@ -1,0 +1,76 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  text-align: center;
+  background-color: #849abd;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#form-area {
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#description {
+  font-size: 30px;
+  font-family: 'Slabo 27px', serif;
+}
+
+.labels {
+  display: inline-block;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  text-align: left;
+}
+
+hr {
+  width: 80%;
+  height: 1px;
+  background-color: #616366;
+
+}
+
+.dropdown {
+  width: 100px;
+  height: 25px;
+  margin: 20px;
+}
+
+.checkbox-form {
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  margin: auto;
+}
+
+#submit {
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #59ace0;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  font-size: 19px;
+}
+
+footer {
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  text-shadow: 2px 2px 4px;
+}
